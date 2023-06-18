@@ -40,7 +40,7 @@ public class MathUtil {
     // tính n! = n * (n-1)!
         public static long getFactorial(int n){
         if (n<0||n>20)
-            throw new IllegalArgumentException("n must be between 0 .. 20");
+            throw new IllegalArgumentException("chi tu 0>20");
         
         if (n==0 || n==1)
             return 1; //theo qui ước
